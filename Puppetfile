@@ -1,5 +1,8 @@
 forge 'http://forge.puppetlabs.com'
 
-mod 'torrancew/account', '0.0.2'
+mod 'account',
+  :git => 'git://github.com/torrancew/puppet-account.git',
+  :ref => 'with_ensure'
+
 mod 'torrancew/cron',    '0.0.1'
 
