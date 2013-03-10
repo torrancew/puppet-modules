@@ -4,5 +4,8 @@ mod 'account',
   :git => 'git://github.com/torrancew/puppet-account.git',
   :ref => 'develop'
 
-mod 'torrancew/cron',    '0.0.1'
+mod 'rsyslog',
+  :git => 'git://github.com/torrancew/puppet-rsyslog.git'
+
+mod 'torrancew/cron', '0.0.1'
 
