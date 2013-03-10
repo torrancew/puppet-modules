@@ -7,6 +7,7 @@ mod 'account',
 mod 'rsyslog',
   :git => 'git://github.com/torrancew/puppet-rsyslog.git'
 
-mod 'torrancew/cron',   '0.0.1'
-mod 'richardc/datacat', '0.0.0-rc1'
+mod 'datacat',
+  :git => 'git://github.com/richardc/puppet-datacat.git'
 
+mod 'torrancew/cron',   '0.0.1'
