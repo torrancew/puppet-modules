@@ -11,3 +11,7 @@ mod 'datacat',
   :git => 'git://github.com/richardc/puppet-datacat.git'
 
 mod 'torrancew/cron',   '0.0.1'
+
+mod 'gdash',
+  :git => 'git://github.com/torrancew/puppet-gdash.git'
+
